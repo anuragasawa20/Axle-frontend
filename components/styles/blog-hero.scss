@@ -1,0 +1,35 @@
+.blog-hero{
+    background-image: url(../../app/assets/landing/3dbg.png);
+    min-height: 300px;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+.blog-search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    input{
+        background-color: transparent;
+        border: 1px solid white;
+        padding: 8px;
+        font-size: 1.2rem;
+        border-radius: 15px 0;
+        color: white;
+        @media (max-width: 400px) {
+            padding: 10px;
+            font-size: 1.1rem;
+          }
+
+          @media (max-width: 350px) {
+            padding: 10px;
+            font-size: 1.0rem;
+          }
+    }
+}

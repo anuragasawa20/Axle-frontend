@@ -1,0 +1,114 @@
+.problume-solution {
+     margin: 5rem auto;
+     h1 {
+       width: 50vw;
+       max-width: 650px;
+       margin: 0 10vw;
+     }
+   
+     p {
+       line-height: 2.2rem;
+       font-size: 1.4rem;
+       width: 50vw;
+       max-width: 600px;
+       margin: 0 10vw;
+     }
+   
+     > img {
+       width: 80vw;
+       margin: 2rem auto;
+     }
+   
+     @media (max-width: 1200px) {
+   
+       width: 95vw;
+       margin: 5rem auto;
+   
+       h1 {
+         width: 60vw;
+         max-width: 750px;
+         margin: 0 auto;
+       }
+       p{
+         line-height: 2rem;
+         font-size: 1.3rem;
+         width: 60vw;
+         max-width: 700px;
+         margin: 0 auto;
+       }
+     }
+   
+   
+     @media (max-width: 800px) {
+   
+       width: 95vw;
+       margin: 5rem auto;
+   
+       h1 {
+         width: 90vw;
+         max-width: 750px;
+         text-align: center;
+       }
+       p{
+         line-height: 2rem;
+         font-size: 1.3rem;
+         width: 90vw;
+         text-align: center;
+         max-width: auto;
+       }
+     }
+   
+     @media (max-width: 600px) {
+       margin: 5rem auto;
+       p{
+         font-size: 1.2rem;
+         line-height: 1.5rem;
+       }
+     }
+
+     @media (max-width: 400px) {
+        p{
+          font-size: 0.9rem;
+          line-height: 1.2rem;
+        }
+      }
+   }
+   
+   .problem {
+    margin: 1rem auto;
+     position: relative;
+     display: flex;
+     align-items: center;
+     overflow: hidden;
+     min-height: 50vh;
+   
+     img {
+       position: absolute;
+       z-index: -1;
+       top: 5rem;
+       right: 0;
+       height: 40vh;
+       min-height: 350px;
+       width: auto;
+     }
+   }
+   
+   .solution {
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: right;
+     overflow: hidden;
+     min-height: 50vh;
+   
+     img {
+       position: absolute;
+       z-index: -1;
+       top: 5rem;
+       left: 0;
+       height: 40vh;
+       min-height: 350px;
+       width: auto;
+       transform: rotate(180deg);
+     }
+   }

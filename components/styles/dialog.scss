@@ -1,0 +1,88 @@
+.dialog-comp{
+    display: flex;
+    gap: 2rem;
+
+    img{
+        height: auto;
+        width: 50vw;
+        max-width: 400px;
+        border-radius: 10px 0 0 10px;
+    }
+
+    h1{
+        font-family: GoodTimes, "Times New Roman", Times, serif;
+        color: white;
+        text-align: center;
+        font-size: 2.8rem;
+        line-height: 3rem;
+        margin-bottom: 3rem;
+        span{
+            color: var(--primary);
+        }
+    }
+
+    @media (max-width: 1000px) {
+        img{
+            height: auto;
+            width: 40vw;
+            max-width: auto;
+        }
+      }
+
+      
+    @media (max-width: 800px) {
+        h1{
+            font-size: 1.8rem;
+            line-height: 2rem;
+            margin-bottom: 2rem;
+        }
+      }
+
+      @media (max-width: 700px) {
+        display: grid;
+        img{
+            display: none;
+        }
+        padding: 2rem;
+      }
+
+      @media (max-width: 500px) {
+        padding: 1rem 0;
+
+        h1{
+            font-size: 1.8rem;
+        }
+      }
+}
+
+.dialog-comp-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem ;
+    max-width: 400px;
+}
+
+.dialog-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    textarea,input{
+        background-color: transparent;
+        border: 1px solid var(--primary);
+        padding: 10px;
+        font-size: 1.4rem;
+       
+        color: white;
+        @media (max-width: 400px) {
+            padding: 10px;
+            font-size: 1.1rem;
+          }
+
+          @media (max-width: 350px) {
+            padding: 10px;
+            font-size: 1.0rem;
+          }
+    }
+}
+

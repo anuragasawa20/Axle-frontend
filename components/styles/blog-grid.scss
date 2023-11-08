@@ -1,0 +1,17 @@
+.blog-comp{
+    overflow: hidden;
+    background-color: rgba(80, 80, 80, 0.3);
+
+    img {
+        width: 400px;
+        height: 220px;
+        object-fit: cover;
+        object-position: center center;
+        transition: transform 0.5s;
+        opacity: 0.9;
+        &:hover{
+            opacity: 1;
+            transform: scale(1.05);
+        }
+      }
+}

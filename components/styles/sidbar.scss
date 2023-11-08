@@ -1,0 +1,36 @@
+.sidbar-main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 2rem 0;
+    border-right: 2px solid #2B2626;
+}
+
+
+.sidbar-link {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    justify-content: flex-start;
+    color: white;
+  }
+  
+  .sidbar-link:hover {
+    color: white;
+    background: linear-gradient(90deg, rgba(255, 69, 58, 0.3) -21.55%,);
+    background-color: #2B2626;
+  }
+
+  .active-sidbar{
+    background: linear-gradient(90deg, rgba(255, 69, 58, 0.3) -21.55%, rgba(255, 69, 58, 0) 80.04%);
+    background-color: #2B2626;
+    border-left: 5px solid #FF453A;
+  }
+
+  .active-color{
+    color: #FF453A;
+  }
+
+

@@ -1,0 +1,24 @@
+
+.game-page-body{
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    margin: 20px 10px;
+    gap: 20px;
+
+    h4{
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.6rem;
+    }
+}
+
+.game-spec{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    >div{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+}

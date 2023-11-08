@@ -1,0 +1,51 @@
+.grid-main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  
+    h4{
+      font-size: 1.4rem;
+      line-height: 1.5rem;
+    }
+  
+  }
+
+  .grid-title{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background: #00000099;
+    padding: 10px 5px;
+    z-index: 1;
+  }
+  
+  .img-grid{
+  
+    img{
+      width: 25vw;
+      height: 15vw;
+      border-radius: 10px;
+      object-fit: cover;
+      object-position: center center;
+      transition: transform 0.3s ease-in-out;
+  
+      &:hover {
+        transform: scale(0.99);
+      }
+    }
+  }
+
+  .category-tag{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    gap: 5px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+    background: #463F3F;
+  }

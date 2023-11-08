@@ -1,0 +1,17 @@
+.search-input {
+    position: relative;
+
+    .search-icon{
+      position: absolute;
+      left: 10px;
+      height: 38px;
+    }
+    
+    input{
+      padding: 10px 45px;
+      width: 25vw;
+      height: 40px;
+      border-radius: 10px;
+      background-color: #2B2626;
+    }
+  }

@@ -1,0 +1,45 @@
+%light {
+  position: fixed;
+  width: 7rem;
+  height: 7rem;
+  z-index: -10;
+  filter: blur(8rem);
+  background-color: red;
+  box-shadow: 0 0 5px red;
+  animation: new 5s infinite;
+  @keyframes new {
+    0% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+    50% {
+      transform: scale(2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+  }
+}
+
+.fixed-light {
+  @extend %light;
+  top: 0;
+}
+
+.fixed-light2 {
+  @extend %light;
+  right: 0;
+  bottom: 0;
+}
+
+.fixed-img {
+  position: fixed;
+  bottom: 0;
+  right: -15vw;
+  z-index: -1;
+  img {
+    opacity: 0.2;
+  }
+}

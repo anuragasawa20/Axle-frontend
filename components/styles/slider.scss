@@ -1,0 +1,66 @@
+.main-slide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  
+    img{
+      width: 60vw;
+      height: 25vw;
+      border-radius: 10px;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+
+
+  
+  .slidbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 50px;
+    height: 25vw;
+    width: 25vw;
+    border-radius: 10px;
+    background: radial-gradient(166.14% 166.14% at 50% -7.12%, #2B2626 34.57%, rgba(43, 38, 38, 0) 100%);
+  
+    h2{
+      font-size: 2rem;
+      font-weight: 600;
+    }
+  
+    button{
+      padding: 0 50px ;
+    }
+  
+  }
+  
+.swiper-button-prev,
+.swiper-button-next {
+  --swiper-navigation-color: rgba(250, 81, 81, 0.3);
+  transition: 0.5s;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  --swiper-navigation-color: var(--primary);
+}
+
+.img-thumb{
+ 
+    opacity: 0.5;
+  
+}
+
+.active-thumb {
+  border: 2px solid var(--primary);
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Add any other styles you need */
+}
